@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: bank_raw
+    database: AMERICANRETAILBANK
+    schema: RAW_DATA
+    tables:
+      - name: account
+      - name: customer
+      - name: transaction
+      - name: card
+      - name: disposition
